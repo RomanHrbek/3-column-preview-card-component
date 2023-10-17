@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+    padding: 0px;
+    border-radius: 12px;
+}
+
+.sedans {
+    width: 270px;
+    height: 470px;
+    background-color:#E28525;  
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.suvs {
+    width: 270px;
+    height: 470px;
+    background-color:#016972;
+}
+
+.lux {
+    width: 270px;
+    height: 470px;
+    background-color:#00403F;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.learn-more-btn-sed {
+    color:#E28525;
+    background-color: white; 
+    border: none;
+    width: 142px;
+    height: 45px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.learn-more-btn-suv {
+    color:#016972;
+    background-color: white; 
+    border: none;
+    width: 142px;
+    height: 45px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 15px;  
+    margin-left: 50px; 
+    margin-top: 25px;
+}
+
+.learn-more-btn-lux {
+    color:#00403F;
+    background-color: white; 
+    border: none;
+    width: 142px;
+    height: 45px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.headers {
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    color: white;
+    font-size: 45px;
+    margin-left: 50px;
+}
+
+.description {
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align:start;
+    line-height: 1.6;
+    max-width: 200px;
+    margin-left: 50px;
+}
+
+.icons {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+
+
+
+@media only screen and (max-width:810px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
