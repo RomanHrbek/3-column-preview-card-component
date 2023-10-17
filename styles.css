@@ -73,6 +73,29 @@ body {
     margin-top: 25px;
 }
 
+.learn-more-btn-sed:hover {
+    color: white;
+    background: transparent;
+    transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+    border: white 2px solid ;
+  }
+
+  .learn-more-btn-suv:hover {
+    color: white;
+    background: transparent;
+    transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+    border: white 2px solid ;
+  }
+
+  .learn-more-btn-lux:hover {
+    color: white;
+    background: transparent;
+    transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+    border: white 2px solid ;
+  }
+
+
+
 .headers {
     font-family: "Big Shoulders Display";
     font-weight: 700;
@@ -82,7 +105,7 @@ body {
 }
 
 .description {
-    color: hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.884);
     text-align:start;
     line-height: 1.6;
     max-width: 200px;
@@ -101,6 +124,19 @@ body {
     .grid {
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .sedans {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .lux {
+
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
     }
 
 }
